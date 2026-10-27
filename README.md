@@ -18,13 +18,12 @@ day2-sales-analytics/
 └── README.md
 ```
 
-The current script looks for `electronics_sales.csv` beside `sales_analysis.py`. To follow the assignment’s suggested `data/` folder layout instead, put the CSV at `data/electronics_sales.csv` and set the script’s path to:
-
+The current script looks for `electronics_sales.csv` beside `sales_analysis.py`. 
 ```python
 DATA_PATH = Path("data") / "electronics_sales.csv"
 ```
 
-The dataset has columns for the sale ID, date, store, product, quantity, unit price, and payment method. Its price column is named `unit_price_kes`; the script also supports a column named `unit_price`.
+The dataset has columns for the sale ID, date, store, product, quantity, unit price, and payment method. 
 
 ## Getting started
 
@@ -73,7 +72,7 @@ The supplied file is treated as the September dataset; the script does not filte
 
 The pandas step applies the same number parser and validity rules as the standard-library analysis. It recalculates total revenue, revenue by product, and the top three products, then prints `MATCH` or `MISMATCH` for each comparison. This helps confirm that the hand-written aggregation gives the same result as a second approach.
 
-The dataset’s price column is `unit_price_kes`. The verification function recognizes that name as well as `unit_price`. An earlier run stopped because the verification code expected `unit_price`; this was a column-name mismatch, not a difference in the sales calculations. Run the corrected version to complete verification. If a comparison reports `MISMATCH`, include the Python and pandas values and explain the cause here after checking that both calculations used the same rows and cleaning rules.
+
 
 ## Current results
 
