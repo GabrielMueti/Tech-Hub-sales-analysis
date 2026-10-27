@@ -1,0 +1,63 @@
+TECH HUB KENYA - SEPTEMBER SALES REPORT
+==========================================
+Rows read: 50
+Rows included: 46
+Rows skipped: 4
+Total revenue: KES 1,310,812.00
+
+REVENUE BY PRODUCT (highest first)
+  HP 15 Laptop: KES 389,994.00
+  Hisense 43in Smart TV: KES 272,993.00
+  Lenovo Tab M10: KES 199,992.00
+  Tecno Spark 20: KES 161,988.00
+  Infinix Hot 40: KES 63,996.00
+  Samsung Galaxy A15: KES 56,997.00
+  JBL Go 3 Speaker: KES 49,491.00
+  Anker Power Bank 20000: KES 38,691.00
+  Xiaomi Redmi Buds: KES 25,592.00
+  Oraimo FreePods: KES 19,593.00
+  USB-C Charger 25W: KES 19,487.00
+  Safaricom Neon Ray: KES 11,998.00
+
+REVENUE BY STORE
+  Kisumu Mega Plaza: KES 449,678.00
+  Nairobi CBD: KES 331,085.00
+  Westgate: KES 235,979.00
+  Mombasa City Mall: KES 154,082.00
+  Nakuru Westside: KES 139,988.00
+
+REVENUE BY PAYMENT METHOD
+  M-Pesa: KES 738,568.00
+  Cash: KES 304,375.00
+  Card: KES 267,869.00
+
+TOP THREE PRODUCTS
+  1. HP 15 Laptop: KES 389,994.00
+  2. Hisense 43in Smart TV: KES 272,993.00
+  3. Lenovo Tab M10: KES 199,992.00
+
+HIGH-VALUE SALES (KES 50,000 or more)
+  Number of qualifying sales: 5
+  S-3013 | Westgate | Lenovo Tab M10 | KES 99,996.00
+  S-3017 | Kisumu Mega Plaza | Hisense 43in Smart TV | KES 155,996.00
+  S-3022 | Nairobi CBD | HP 15 Laptop | KES 259,996.00
+  S-3036 | Nakuru Westside | Tecno Spark 20 | KES 53,996.00
+  S-3048 | Kisumu Mega Plaza | HP 15 Laptop | KES 129,998.00
+  High-value sales by store:
+    Kisumu Mega Plaza: 2
+    Mombasa City Mall: 0
+    Nairobi CBD: 1
+    Nakuru Westside: 1
+    Westgate: 1
+
+PER-TRANSACTION REVENUE STATISTICS
+  Mean: KES 28,495.91
+  Median: KES 11,097.00
+  Minimum: KES 1,499.00
+  Maximum: KES 259,996.00
+
+SKIPPED ROWS
+  S-3006: quantity is blank or not a valid number
+  S-3030: unit_price is blank or not a valid number
+  S-3035: quantity is blank or not a valid number
+  S-3039: unit_price is blank or not a valid number
