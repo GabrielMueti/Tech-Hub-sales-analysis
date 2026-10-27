@@ -350,6 +350,7 @@ if __name__ == "__main__":
     else:
         report_lines.append("  None")
 
+    ##Print and save report
     report_text = "\n".join(report_lines) + "\n"
     print("\n" + report_text)
 
